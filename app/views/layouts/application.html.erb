@@ -18,14 +18,18 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Dev Match</a>
+            
+            <%= link_to "/", class: "navbar-brand" do %>
+              <i class="fa fa-group"></i>
+              DevMatch
+            <% end %>
           </div>
          
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="#">Other</a></li>
+              <li> <%= link_to "Home", "/" %></li>
+              <li> <%= link_to "About", "/about" %></li>
+              <li> <%= link_to "Other", "#" %></li>
             </ul>
           </div>
         </div>
