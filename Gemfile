@@ -38,6 +38,8 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 # Use devise for user authentication
 gem 'devise', '4.2.0'
+# Use stripe for payment processing
+gem 'stripe', '1.48.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
