@@ -40,8 +40,10 @@ gem 'hirb', '0.7.3'
 gem 'devise', '4.2.0'
 # Use stripe for payment processing
 gem 'stripe', '1.48.0'
-#Use figaro for env variables
+# Use figaro for env variables
 gem 'figaro', '1.1.1'
+# Use paperclip for image upload
+gem 'paperclip', '4.3.6'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
