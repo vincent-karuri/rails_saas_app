@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+    before_action :authenticate_user!
     # GET request to /contact-us
     def new
         @contact = Contact.new
